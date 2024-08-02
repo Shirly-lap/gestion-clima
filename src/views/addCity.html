@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../src/views/scss/style.scss" />
-    <link rel="stylesheet" href="../src/views/scss/addCity.scss" />
+    <link rel="stylesheet" href="./scss/addCity.scss" />
     <title>Document</title>
 </head>
 
@@ -28,17 +27,18 @@
 
         <section class="form-container">
             <form id="addCity-form" action="">
+                <input type="text" class="addCity-input" id="temperature" placeholder="Temperatura " />
                 <input type="text" class="addCity-input" id="new-city" placeholder="Ciudad" />
                 <input type="text" class="addCity-input" id="new-country" placeholder="Pais" />
-                <textarea class="addCity-textarea" id="newCity-description"
-                    placeholder="Descripcion del analisis"></textarea>
+                <input type="url" class="addCity-input" id="new-img" placeholder="URL imagen" />
+                <textarea class="addCity-textarea" id="newCity-description" placeholder="Descripcion del analisis"></textarea>
                 <div class="button-container">
                     <button type="submit" class="addCity-button">Agregar</button>
                 </div>
             </form>
         </section>
     </main>
-    <script type="module" src="../Controller/home.ts"></script>
+    <script type="module" src="../controllers/addCity.ts"></script>
 </body>
 
 </html>
