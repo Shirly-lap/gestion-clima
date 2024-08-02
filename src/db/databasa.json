@@ -5,7 +5,8 @@
       "country": "Colombia",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajIEArYzWnWBHJrCywe10S_pfzvMaxFL0Hw&s",
       "date": "2024-08-01T17:40:30.995Z",
-      "cityDescription": "La mejor ciudad de Colombia"
+      "cityDescription": "La mejor ciudad de Colombia",
+      "id": "6424"
     },
     {
       "id": "5ca7",
@@ -55,6 +56,38 @@
       "date": "2024-08-02T03:46:30.925Z",
       "cityDescription": "Frío",
       "temperature": "45"
+    },
+    {
+      "id": "06f7",
+      "city": "Madrid",
+      "country": "España",
+      "image": "https://www.civitatis.com/f/pseo/espana/madrid/gran-via-noche-madrid-1200.jpg",
+      "date": "2024-08-02T12:14:36.570Z",
+      "cityDescription": "hjsajjsd"
+    },
+    {
+      "id": "aadb",
+      "city": "sd",
+      "country": "sd",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Pedro_de_los_Milagros-parque.JPG",
+      "date": "2024-08-02T13:15:32.966Z",
+      "cityDescription": "asSA"
+    },
+    {
+      "id": "20a1",
+      "city": "cxzczxc",
+      "country": "dsdsf",
+      "image": "https://www.civitatis.com/f/pseo/espana/madrid/gran-via-noche-madrid-1200.jpg",
+      "date": "2024-08-02T13:18:33.034Z",
+      "cityDescription": "dfsf"
+    },
+    {
+      "id": "fa73",
+      "city": "ewrew",
+      "country": "weew",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Pedro_de_los_Milagros-parque.JPG",
+      "date": "2024-08-02T13:20:29.156Z",
+      "cityDescription": "ewrew"
     }
   ]
 }

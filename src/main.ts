@@ -1,3 +1,4 @@
+import Swal from "sweetalert2";
 import { PageController } from "./controllers/Page.controller";
 
 const url = 'https://reqres.in/api/'
@@ -10,7 +11,7 @@ loginForm.addEventListener("submit", async (event: Event) => {
     const user = {
         email: emailUser.value,
         password: passwordUser.value
-    };   
+    };
     try {
         const pageController = new PageController(url);
         const responseOfLogin = await pageController.login(user, 'login')
@@ -19,8 +20,15 @@ loginForm.addEventListener("submit", async (event: Event) => {
 
         const getToken = sessionStorage.getItem('token');
         if (getToken) {
-            alert('Se inicia la sesion')
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+            });
             window.location.href = '../src/views/home.html'
+        
         }
 
     } catch (e) {

@@ -27,7 +27,8 @@ export class CitiesController {
 
         })
 
-        const response = request.json()
+        const response = request.json();
+
         return response
 
     }
