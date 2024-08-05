@@ -1,0 +1,55 @@
+@import './style.scss';
+
+.card-container{
+    width: 280px;
+    height: 380px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    .img-card{
+        width: 100%;
+        height: 205px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .cardInfo-container{
+        padding: 15px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .cross-container{
+        font-size: 30px;
+        position: absolute;
+        top:10px;
+        display: none;
+        right: 10px;
+        color: $gray;
+        cursor: pointer;
+    }
+
+}
+
+.card-container:hover .cross-container{
+    display: flex;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .viewMore-button{
+        width: 100px;
+        height: 32px;
+        border: none;
+        border-radius: 13px;
+        background: $lightBlue;
+        color: $white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

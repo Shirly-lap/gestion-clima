@@ -1,6 +1,13 @@
-const logoutBtn= document.querySelector("#logout-button") as HTMLButtonElement
+import { IWeather } from "../models/IWeather";
+import { Card } from "./card"
+import { CitiesController } from "./cities.controller"
 
-document.addEventListener('DOMContentLoaded', () =>{
+const url = 'http://localhost:3000/'
+const logoutBtn= document.querySelector("#logout-button") as HTMLButtonElement
+const carSection = document.querySelector("#cards-section");
+
+
+window.addEventListener('DOMContentLoaded', () =>{
     if(!sessionStorage.getItem('token')){
         window.location.href='/'
     }
@@ -10,3 +17,24 @@ logoutBtn.addEventListener('click',()=>{
     sessionStorage.removeItem('token');
     window.location.href = '/'
 })
+
+async function showCities() {
+    const citiesController = new CitiesController(url);
+    const cities = await citiesController.getCities("citys");
+
+    cities.forEach(async (city) => {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.city}&appid=899b0ebc77ca0bb621ca0d0cae498295`)
+        const data: IWeather = await response.json()
+        carSection?.appendChild(Card(city,data.main.temp))
+    })
+}
+showCities()
+
+document.addEventListener('click', (event : Event) => {
+    const target = event.target as HTMLElement;
+    if (target.className.includes('viewMore-button')) {
+        const idViewMore = target.getAttribute('id-button');
+        localStorage.setItem('id-view', String(idViewMore))
+        window.location.href = "../views/information.html"
+    }
+});

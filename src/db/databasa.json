@@ -1,0 +1,85 @@
+{
+  "citys": [
+    {
+      "city": "Magangué",
+      "country": "Colombia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajIEArYzWnWBHJrCywe10S_pfzvMaxFL0Hw&s",
+      "date": "2024-08-01T17:40:30.995Z",
+      "cityDescription": "La mejor ciudad de Colombia",
+      "id": "6424"
+    },
+    {
+      "id": "5ca7",
+      "city": "San Pedro",
+      "country": "Colombia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Pedro_de_los_Milagros-parque.JPG",
+      "date": "2024-08-02T02:46:05.157Z",
+      "cityDescription": "sdsads"
+    },
+    {
+      "id": "ads",
+      "city": "San Pedro",
+      "country": "Colombia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Pedro_de_los_Milagros-parque.JPG",
+      "date": "2024-08-02T02:48:56.134Z",
+      "cityDescription": "asdasds"
+    },
+    {
+      "id": "5ab4",
+      "city": "Corozal",
+      "country": "Colombia",
+      "image": "https://www.encoexpres.co/sites/default/files/portfolio-images/corozal%20sucre.jpg",
+      "date": "2024-08-02T02:54:00.350Z",
+      "cityDescription": "Tierra del diabolin"
+    },
+    {
+      "id": "2531",
+      "city": "Luruaco",
+      "country": "Colombia",
+      "image": "https://www.wradio.com.co/resizer/v2/PMZOHGUSKFA3DH4LXPT2USB32Q.jpg?auth=dce1efe41007f965268ce6131e47d5979a97c181d5ea01fdaf9f1932dc833c75&width=650&height=488&quality=70&smart=true",
+      "date": "2024-08-02T03:15:56.549Z",
+      "analysisReason": "muy caliente por estar a la orilla del río"
+    },
+    {
+      "id": "235d",
+      "city": "Luruaco",
+      "country": "Colombia",
+      "image": "https://www.wradio.com.co/resizer/v2/PMZOHGUSKFA3DH4LXPT2USB32Q.jpg?auth=dce1efe41007f965268ce6131e47d5979a97c181d5ea01fdaf9f1932dc833c75&width=650&height=488&quality=70&smart=true",
+      "date": "2024-08-02T03:16:55.423Z",
+      "cityDescription": "nnn"
+    },
+    {
+      "id": "164e",
+      "city": "Mompox",
+      "country": "Colombia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g9Q07mmsdwqxQzNGt5uhfGffZcyO_FFcyw&s",
+      "date": "2024-08-02T03:46:30.925Z",
+      "cityDescription": "Frío",
+      "temperature": "45"
+    },
+    {
+      "id": "06f7",
+      "city": "Madrid",
+      "country": "España",
+      "image": "https://www.civitatis.com/f/pseo/espana/madrid/gran-via-noche-madrid-1200.jpg",
+      "date": "2024-08-02T12:14:36.570Z",
+      "cityDescription": "hjsajjsd"
+    },
+    {
+      "id": "40f1",
+      "city": "Barranquilla",
+      "country": "Colombia",
+      "image": "https://www.encoexpres.co/sites/default/files/portfolio-images/corozal%20sucre.jpg",
+      "date": "2024-08-02T17:00:04.205Z",
+      "cityDescription": "dsfds"
+    },
+    {
+      "id": "4313",
+      "city": "Medellín",
+      "country": "Colombia",
+      "image": "https://www.imf.org/wp-content/uploads/2020/07/Dialogo-1024x600-Medellin-FD-article-R-1024x600.jpg",
+      "date": "2024-08-05T01:07:27.894Z",
+      "cityDescription": "HHH"
+    }
+  ]
+}
