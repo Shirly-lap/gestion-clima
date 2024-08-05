@@ -30,3 +30,11 @@ async function showCities() {
 }
 showCities()
 
+document.addEventListener('click', (event : Event) => {
+    const target = event.target as HTMLElement;
+    if (target.className.includes('viewMore-button')) {
+        const idViewMore = target.getAttribute('id-button');
+        localStorage.setItem('id-view', String(idViewMore))
+        window.location.href = "../views/information.html"
+    }
+});
